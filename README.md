@@ -1,2 +1,1 @@
-# hello-world-npm-module-importer
-hello-world-npm-module-importer
+npm login --scope=@govindarajanv --registry=https://npm.pkg.github.com

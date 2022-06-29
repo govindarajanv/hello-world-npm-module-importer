@@ -21,5 +21,10 @@ jobs:
       with:
         node-version: 16.0
         cache: 'npm'
+    - run: |
+          echo "@govindarajanv:registry=https://npm.pkg.github.com/" > .npmrc
+          echo "//npm.pkg.github.com/:_authToken=${NPM_TOKEN}" >> .npmrc
+      env:
+          NPM_TOKEN: ${{ secrets.PUBLISH_TOKEN }}
     - run: npm install @govindarajanv/hello-world-npm-module
     - run: node index.js

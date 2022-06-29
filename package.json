@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/govindarajanv/hello-world-npm-module-importer/issues"
   },
-  "homepage": "https://github.com/govindarajanv/hello-world-npm-module-importer#readme"
+  "homepage": "https://github.com/govindarajanv/hello-world-npm-module-importer#readme",
+  "dependencies": {
+    "@govindarajanv/hello-world-npm-module": "^1.0.2"
+  }
 }
