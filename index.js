@@ -1,3 +1,3 @@
-var myApp = require("@govindarajanv/simple-hello-world-example");
+var myApp = require("@govindarajanv/hello-world-npm-module");
 
 myApp.printMsg();
